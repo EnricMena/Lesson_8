@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Style for sports title in list items (larger for tablets) -->
+    <style name="SportsTitle" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <!-- Style for sports detail text in list items (larger for tablets) -->
+    <style name="SportsDetailText" parent="TextAppearance.AppCompat.Headline"/>
+
+    <!-- Style for sports detail title in detail activity (larger for tablets) -->
+    <style name="SportsDetailTitle" parent="TextAppearance.AppCompat.Display3"/>
+
+</resources>
+

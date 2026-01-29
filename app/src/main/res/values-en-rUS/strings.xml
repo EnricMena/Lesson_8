@@ -1,0 +1,106 @@
+<!--
+  Copyright 2018 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Lesson 8</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Textos para la pantalla principal (MainActivity) -->
+    <string name="intro_text">Droid Desserts</string>
+    <string name="choose_a_dessert">Choose a dessert.</string>
+    <string name="donut_description">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream_description">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo_description">FroYo is premium self-serve frozen yogurt.</string>
+
+    <!-- Mensajes de pedido para los Toasts -->
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message">You ordered a FroYo.</string>
+
+    <!-- Textos para la pantalla de pedido (OrderActivity) -->
+    <string name="title_activity_order">Order Activity</string>
+    <string name="order_label_text">Order:</string>
+    <string name="name_label_text">Name</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="address_label_text">Address</string>
+    <string name="enter_address_hint">Enter address</string>
+    <string name="phone_label_text">Phone</string>
+    <string name="enter_phone_hint">Enter phone</string>
+    <string name="note_label_text">Note</string>
+    <string name="enter_note_hint">Enter note</string>
+    <string name="choose_delivery_method">Choose a delivery method:</string>
+
+    <!-- Opciones para los RadioButtons de envío -->
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+
+    <!-- Mensaje para la selección de envío en OrderActivity -->
+    <string name="chosen">Chosen: </string>
+    <string name="nothing_clicked">Nothing clicked.</string>
+
+    <!-- Recursos antiguos para compatibilidad -->
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+
+    <!-- US-specific sports titles (using "Soccer" instead of "Football") -->
+    <string-array name="sports_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Baseball is a bat-and-ball sport played between two teams of nine players each.</item>
+        <item>Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.</item>
+        <item>Basketball is a team sport in which two teams, most commonly of five players each, compete.</item>
+        <item>Bowling is a target sport where players roll a ball toward pins.</item>
+        <item>Cycling, also called bicycling or biking, is the use of bicycles for transport, recreation, or sport.</item>
+        <item>Golf is a club-and-ball sport in which players use various clubs to hit balls into a series of holes.</item>
+        <item>Running is a method of terrestrial locomotion allowing humans to move rapidly on foot.</item>
+        <item>Soccer is a team sport played between two teams of 11 players with a spherical ball.</item>
+        <item>Swimming is the self-propulsion of a person through water for recreation, sport, or survival.</item>
+        <item>Table tennis is a sport in which two or four players hit a lightweight ball back and forth across a table.</item>
+        <item>Tennis is a racket sport that can be played individually or between two teams of two players each.</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+
+    <string name="sports_image_description">Image of the sport</string>
+    <string name="sports_detail_text">This sport has a rich history and is enjoyed by millions of people around the world. It requires skill, dedication, and practice to master. Whether played professionally or recreationally, it provides excellent physical exercise and promotes teamwork, discipline, and sportsmanship. Many athletes train for years to compete at the highest levels, and the sport continues to evolve with new techniques and strategies being developed constantly.</string>
+
+</resources>
+

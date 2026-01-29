@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Cercle blanc de fons per a la lletra -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0" />
+    <!-- Lletra M en color blau (el color del projecte) -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M38,63.92V20.17H42.21L59.53,54.89L77.19,20.17H81.4V63.92H77.19V25.19L59.53,60.07L42.21,25.19V63.92H38Z" />
+</vector>
